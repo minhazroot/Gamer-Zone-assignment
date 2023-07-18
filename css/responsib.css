@@ -17,6 +17,53 @@
     }
 
     /* nav responsive  end  */
+    /* baner  responsive */
+    .banner_section {
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+
+    .goat_section {
+        width: 80%;
+        margin: auto;
+    }
+
+    .goat_section>h1 {
+        font-size: 1rem;
+    }
+
+    .goat_section>p {
+        font-size: 40px;
+    }
+
+    .play,
+    .Download,
+    .online {
+
+        font-size: 10px;
+        padding: 5px;
+
+    }
+
+    .primary_button {
+        padding: 15px 20px;
+    }
+
+    .secendary_button {
+        padding: 15px 20px;
+    }
+
+    .baner_main_img {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .baner_main_img img {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* tablet view  */
@@ -38,4 +85,54 @@
     }
 
     /* nav responsive  end  */
+    /* banar responsiv  */
+    .banner_section {
+        flex-direction: column-reverse;
+        margin-top: 350px;
+        column-gap: 10px;
+
+    }
+
+    .goat_section {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .goat_section>h1 {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    .goat_section>p {
+        font-size: 50px;
+    }
+
+    .play,
+    .Download,
+    .online {
+
+        font-size: 20px;
+        padding: 5px;
+
+    }
+
+    .primary_button {
+        padding: 20px 25px;
+    }
+
+    .secendary_button {
+        padding: 20px 25px;
+    }
+
+    .baner_main_img {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .baner_main_img img {
+        width: 100%;
+        margin: auto;
+    }
 }
