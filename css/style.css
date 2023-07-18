@@ -148,3 +148,64 @@ nav {
 }
 
 /* banar section style  end   */
+/* We are gamer start   */
+.We_are_gamer {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.We_are_gamer_img {
+    width: 50%;
+}
+
+.We_are_gamer_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+    gap: 5px;
+}
+
+.We_are_gamer_text>h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.We_are_gamer_text>p {
+    color: gray;
+}
+
+/* We are gamer end   */
+/* Online Games Funny Videos start */
+.funny_video {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.funny_video>h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.funny_video>p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.videos {
+    width: 90%;
+    margin: auto;
+    gap: 5px;
+    display: grid;
+
+    grid-template-columns: repeat(4, 345px);
+
+}
+
+/* Online Games Funny Videos end */
