@@ -119,6 +119,78 @@
     .video img {
         width: 100%;
     }
+
+    /* Play Instantly start */
+    .Play_Instantly {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .Play_Instantly_text {
+        width: 100%;
+
+    }
+
+    .Play_Instantly_text>h1 {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .Play_Instantly_text>p {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .Play_Instantly_img {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .img_one {
+
+        width: 300px;
+
+        height: 600px;
+
+    }
+
+    .img_two {
+        position: absolute;
+        top: 300px;
+        left: -100px;
+        width: 200px;
+        height: 300px;
+
+        z-index: 1;
+    }
+
+    /* Careers section */
+    .Careers {
+        flex-direction: column;
+    }
+
+    .careers_text {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .career_list {
+        gap: 5px;
+    }
+
+    .careers_img {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* gamer position  start */
+    .Gamer_positions {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
 }
 
 /* tablet view  */

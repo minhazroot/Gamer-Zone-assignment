@@ -209,3 +209,140 @@ nav {
 }
 
 /* Online Games Funny Videos end */
+/* Play Instantly start */
+.Play_Instantly {
+    display: flex;
+    width: 100%;
+}
+
+.Play_Instantly_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Play_Instantly_text>h1 {
+    font-size: 3rem;
+}
+
+.Play_Instantly_text>p {
+    color: gray;
+    font-size: 20px;
+}
+
+.Play_Instantly_img {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_one {
+    width: 60%;
+    margin: auto;
+    height: 650px;
+}
+
+.img_two {
+    position: absolute;
+    top: 300px;
+    left: -30px;
+    width: 300px;
+    height: 400px;
+
+    z-index: 1;
+}
+
+/* Play Instantly end */
+/* Careers section start  */
+.Careers {
+    display: flex;
+    width: 100%;
+    background-color: #F948B2;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.careers_text {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.careers_text>h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 20px;
+
+}
+
+.careers_text>p {
+    color: white;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.career_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20px;
+}
+
+.positions {
+    background-color: white;
+
+}
+
+.positions a {
+    color: black;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.careers_img {
+    width: 50%;
+}
+
+.careers_img img {
+    width: 100%;
+}
+
+
+/* Careers section end  */
+/* gamer position  start */
+.Gamer_positions {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* width: 200px; */
+    border-radius: 48px;
+    padding: 10px 5px;
+}
+
+.position:hover {
+    border: 2px solid red;
+    color: red;
+
+
+
+}
+
+
+
+
+/* gamer position  end */

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Create a container to hold both boxes */
+        .box-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+
+        /* Style for the underlying box (Box 1) */
+        .box-1 {
+            width: 100%;
+            height: 100%;
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the overlapping box (Box 2) */
+        .box-2 {
+            position: absolute;
+            top: 120px;
+            left: -50px;
+            width: 100px;
+            height: 100px;
+            background-color: #ff0000;
+            z-index: 1;
+            /* Set a higher z-index to position it above Box 1 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-container">
+        <div class="box box-1">Box 1</div>
+        <div class="box box-2">Box 2</div>
+    </div>
+
+</body>
+
+</html>
