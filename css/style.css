@@ -73,7 +73,7 @@ nav {
 }
 
 /* nav style end  */
-/* banar section style  start   */
+/* banner section style  start   */
 .banner_section {
     display: flex;
     width: 100%;
@@ -147,8 +147,8 @@ nav {
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-/* banar section style  end   */
-/* We are gamer start   */
+/* banner section style  end   */
+/* We are gamer style start   */
 .We_are_gamer {
     display: flex;
     width: 100%;
@@ -180,8 +180,8 @@ nav {
     color: gray;
 }
 
-/* We are gamer end   */
-/* Online Games Funny Videos start */
+/* We are gamer style end   */
+/* Online Games Funny Videos style start */
 .funny_video {
     text-align: center;
     margin-top: 30px;
@@ -255,8 +255,8 @@ nav {
 
 }
 
-/* Online Games Funny Videos end */
-/* Play Instantly start */
+/* Online Games Funny Videos style end */
+/* Play Instantly style start */
 .Play_Instantly {
     display: flex;
     width: 100%;
@@ -304,8 +304,8 @@ nav {
     z-index: 1;
 }
 
-/* Play Instantly end */
-/* play gaming start */
+/* Play Instantly style end */
+/* play gaming style start */
 .play_gaming {
     flex-direction: row-reverse;
     margin-top: 50px;
@@ -318,8 +318,8 @@ nav {
 
 }
 
-/* play gaming end */
-/* Careers section start  */
+/* play gaming style end */
+/* Careers section style start  */
 .Careers {
     display: flex;
     width: 100%;
@@ -374,8 +374,8 @@ nav {
 }
 
 
-/* Careers section end  */
-/* gamer position  start */
+/* Careers section style end  */
+/* gamer position style start */
 .Gamer_positions {
     width: 80%;
     margin: auto;
@@ -390,7 +390,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
-    /* width: 200px; */
+
     border-radius: 48px;
     padding: 10px 5px;
 }
@@ -406,8 +406,8 @@ nav {
 
 
 
-/* gamer position  end */
-/* footer section start  */
+/* gamer position style  end */
+/* footer section style start  */
 footer {
     margin-top: 20px;
     width: 100%;
@@ -473,4 +473,4 @@ footer {
     display: flex;
 }
 
-/* footer section end  */
+/* footer section style end  */

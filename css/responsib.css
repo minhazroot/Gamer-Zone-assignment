@@ -1,4 +1,6 @@
-/* mobile view  */
+/*----------------------------
+ mobile view responsive start 
+ -----------------------------*/
 @media only screen and (max-width:576px) {
 
     /* nav responsive  start  */
@@ -17,7 +19,7 @@
     }
 
     /* nav responsive  end  */
-    /* baner  responsive */
+    /* banner  responsive */
     .banner_section {
         flex-direction: column;
         margin-top: 50px;
@@ -66,7 +68,7 @@
         margin: auto;
     }
 
-    /* We_are_gamer */
+    /* We_are_gamer  */
     .We_are_gamer {
         flex-direction: column;
 
@@ -220,7 +222,10 @@
     }
 }
 
-/* tablet view  */
+/* mobile view responsive end */
+/*-------------------------------------------
+ tablet view responsive start
+ -------------------------------------------- */
 @media only screen and (min-width:576px) and (max-width:768px) {
 
     /* nav responsive  start  */
