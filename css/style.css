@@ -346,3 +346,70 @@ nav {
 
 
 /* gamer position  end */
+/* footer section start  */
+footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(4, 4, 68);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_footer {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.footer_manu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.footer_manu a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer_icon {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.footer_icon>a i {
+    color: white;
+    font-size: 30px;
+}
+
+.footer_secent_manu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+
+}
+
+.sec a {
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+}
+
+.copy_rit {
+    color: gray;
+}
+
+.copy_contener {
+    display: flex;
+}
+
+/* footer section end  */
