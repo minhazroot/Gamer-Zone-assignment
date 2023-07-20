@@ -249,7 +249,8 @@ nav {
 
 }
 
-.text:hover {
+.container:hover,
+.text {
     font-size: 16px;
     color: #F948B2;
 
